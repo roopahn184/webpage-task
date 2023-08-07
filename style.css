@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Hero-header {
+    color: #007F61;
+
+}
+
+.Hero-header {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.Hero-header>span {
+    background: #fff;
+    z-index: 1;
+    position: relative;
+    font-size: 18px;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.Hero-header:after {
+    content: "";
+    width: 100%;
+    display: block;
+    height: 2px;
+    background: #C8C8C8;
+    top: 50%;
+    position: absolute;
+}
+
+.form-content {
+    width: 90%;
+    max-width:600px;
+}
+.form-content label {
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    gap: 17px;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.bundle {
+    display: inline-flex;
+    flex: 1;
+    justify-content: space-between;
+    position: relative;
+}
+.table {
+    flex: 0 0 100%;
+    display: none;
+    position: relative;
+    z-index: 9;
+}
+
+.bundle .left {
+    font-size: 14px;
+    position: relative;
+    z-index: 9;
+}
+
+
+.bundle .right {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+}
+
+.offer-label {
+    font-weight: 700;
+}
+
+.table th, .table td {
+    padding: 7px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.table select {
+    padding: 4px;
+    font-size: 12px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+input[type="radio"] {
+    accent-color: #13896d;
+    position: relative;
+    z-index: 9;
+}
+
+input[type="radio"]:checked ~ .table {
+    display: flex;
+} 
+
+input[type="radio"]:checked ~ .overlay {position: absolute;inset: 0;background: red;content: "";
+    border-radius: 3.615px;
+    border: 0.904px solid #007F61;
+    background: #F4FBF9;}
+
+ .original-price {
+        margin-left: 17px;
+        color: rgb(133, 130, 130);
+        text-decoration: line-through;
+    }
+.outer-layer{
+    display: flex;
+    align-items: center;
+    align-content: space-evenly; 
+    justify-content: space-between;
+}
+.shipping-trail{
+    color: #007F61;
+    font-size: 14px;
+    font-weight: 500;
+}
+.total-trial{
+    font-size: 14px;
+    font-weight: 600;
+}
+.button-area{
+   
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+}
+button{
+    display: flex;
+   justify-content:center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: #007F61;
+    color: #ffffff;
+    padding: 10px;
+    width: 600px;
+    border: none;
+    border: 50%;
+    border-radius: 4px;
+   margin-left: 20px 10px;
+   font-size: 16px;
+   margin-top: 20px;
+}
+.outer-line{
+font-family: Inter;
+font-size: 12px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+margin-left: 450px;
+}
+.offer-label{
+    color: #007F61;
+    font-size: 13px;
+    font-weight: 600;
+}
+.price{
+    font-size: 15px;
+    font-weight: 600;
+}
+.pair{
+    font-size: 14px;
+    font-weight: 500;
+}
+.offer{
+    font-size: 14.461px;
+    font-weight: 600;
+}
+
+
+
+
